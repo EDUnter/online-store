@@ -8,6 +8,7 @@ function model(sequelize) {
         image: { type: DataTypes.STRING, allowNull: false },
         description: { type: DataTypes.STRING, allowNull: false },
         quantity: { type: DataTypes.INTEGER, allowNull: false },
+        sold: { type: DataTypes.INTEGER, allowNull: false }
     };
 
     const options = {

@@ -22,7 +22,7 @@ async function getById(id) {
 
 async function create(params) {
     
-    const product = new db.Product(params);
+    const product = new db.Products(params);
 
     // save product
     await product.save();
@@ -55,6 +55,6 @@ async function getProduct(id) {
 }
 
 function basicDetails(product) {
-    const { id, name, image, description, quantity } = product;
-    return { id, name, image, description, quantity };
+    const { id, name, image, description, quantity, sold } = product;
+    return { id, name, image, description, quantity, sold };
 }

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Online Store</title>
+	<link href="../images/logo-online-store.png" rel="icon">
+	<link rel="stylesheet" type="text/css" href="../css/shoppingCartStyle.css">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/a81368914c.js"></script>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		body {
+			overflow: visible;
+		}
+	</style>
+</head>
+
+<body>
+	<img class="wave" src="../images/wave.png">
+	<div class="container">
+		<div class="img">
+			<img src="../images/bg-shopping-cart.svg">
+		</div>
+		<div class="login-content">
+			<form action="index.html" id="form">
+				<img src="../images/shopping-cart.svg">
+				<h2 class="title">Shopping Cart</h2>
+				<div class="input-div one">
+					<div class="i">
+						<i class="fas fa-tag"></i>
+						<h5></h5>
+					</div>
+					<div class="div">
+						<input type="text" id="nameInput" class="input" disabled>
+					</div>
+				</div>
+				<div class="input-div pass">
+					<div class="i">
+						<i class="fas fa-hashtag"></i>
+					</div>
+					<div class="div">
+						<h5>Quantity:</h5>
+						<input type="number" id="quantityInput" class="input">
+					</div>
+				</div>
+				<a href="./index.html">Go Back?</a>
+				<input type="submit" id="btnBuy" class="btn" value="Checkout">
+				<input type="submit" id="btnCancel" class="btn" value="Cancel">
+			</form>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="../js/controllers/shoppingCart.js"></script>
+</body>
+
+</html>
