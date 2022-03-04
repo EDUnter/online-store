@@ -1,0 +1,8 @@
+{
+    "database": {
+        "host": "eu-cdbr-west-02.cleardb.net",
+        "user": "b22494775511c7",
+        "password": "2f2e8d1e",
+        "database": "heroku_e8e3dcc685105c1"
+    }
+}
