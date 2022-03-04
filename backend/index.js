@@ -6,6 +6,8 @@ const cors = require('cors');
 const errorHandler = require('./_midleware/errorHandler');
 const routes = require('./routes')
 
+global.__basedir = __dirname;
+
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
