@@ -23,7 +23,7 @@ This project was developed with the following technologies:
 
 ## 💻 Project
 
-The Online Store consists in a simple sotere where the users can buy the best products online with the best prices.
+The Online Store consists in a simple store where the users can buy the best products online with the best prices.
 ## :memo: License
 
 This project is unde the MIT license. Open [LICENSE](LICENSE.md) archive to get more info
