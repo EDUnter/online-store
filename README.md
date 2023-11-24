@@ -19,4 +19,4 @@ The Online Store project is designed to provide a online shopping experience. Ad
 
 ## License
 
-This project is under the MIT license. Open [LICENSE](LICENSE.md) archive to get more info
+This project is under the MIT license. Open [LICENSE](LICENSE) archive to get more info
